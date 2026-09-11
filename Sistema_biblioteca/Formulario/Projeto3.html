@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+    <h1>Cotação Seguro de Veículo</h1>
+
+    <fieldset>
+        <legend>Condutor</legend>
+        <label for="text">Nome do Proprietario:</label>
+        <input type="text">
+        <br>
+        <br>
+        <label for="text">CNH:</label>
+        <input type="text">
+        <br>
+        <br>
+        <label for="data">Data da Emissão da CNH:</label>
+        <input type="date">
+        <br>
+        <br>
+        <Label for="text">Estado Civil:</Label>
+        <br>
+        <input type="radio" id="opt1" name="escolha" value="1">
+            <label for="opt1">Solteiro</label>
+            <input type="radio" id="opt2" name="escolha" value="2">
+            <label for="opt2">Casado</label>
+            <input type="radio" id="opt3" name="escolha" value="3">
+            <label for="opt3">Divorciado</label>
+            <input type="radio" id="opt4" name="escolha" value="4">
+            <label for="opt4">Viúvo</label>
+    </fieldset>
+    <br>
+    <fieldset>
+        <legend>Veículo</legend>
+        <label for="text">Placa do Carro:</label>
+        <input type="" placeholder="ABC-1234">
+        <br>
+        <br>
+        <label for="carros">Marca de Veiculo</label>
+        <select name="Marca" id="opt_1">
+            <option value="opt_1">Fiat</option>
+            <option value="opt_2">Ferrari</option>
+            <option value="opt_3">Porshe</option>
+        </select>
+        <br>
+        <br>
+        <label for="text">Ano do modelo</label>
+        <input type="text">
+    </fieldset>
+    <br>
+    <br>
+    <fieldset>
+        <legend>Uso</legend>
+        <label for="text">Usa o carro para trabalho?(Taxi/Uber)</label>
+        <br>
+        <br>
+        <label for="opt1">Sim</label>
+        <input type="radio" id="opt1" name="escolha" value="1">
+        <label for="opt2">Não</label>
+        <input type="radio" id="opt2" name="escolha" value="2">
+        <br>
+        <br>
+        <input type="checkbox" id="inscricao" name="newsletter" value="sim">
+        <label for="inscricao">Possui rastreador instalado</label>
+    </fieldset>
+        <br>
+        <button>Solicitar Cotação</button>
+</form>
+</body>
+</html>

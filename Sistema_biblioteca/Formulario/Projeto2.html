@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+    <fieldset>
+        <legend>Endereço da Entrega</legend>
+        <label for="1">Nome do Destinatario:</label>
+        <input type="text">
+        <br>
+        <br>
+        <label for="2">CEP:</label>
+        <input type="number" placeholder="0000-00"> 
+        <br>
+        <br>
+        <label for="3">Rua:</label>
+        <input type="text">
+        <br>
+        <br>
+        <label for="4">Número:</label>
+        <input type="number">
+        <br>
+        <br>
+        <label for="5">Complemento:</label>
+        <input type="text">
+    </fieldset>
+        <br>
+    <fieldset>
+        <legend>Opções de Entrega</legend>
+        <label for="6">Periodo de entrega:</label>
+        <select name="opções" id="7">
+            <option value="entrega1">Manhã(08h-12h)</option>
+            <option value="entrega2">Tarde(13h-18h)</option>
+            <option value="entrega3">Noite(18h-22h)</option>
+        </select>
+        <br>
+        <br>
+        <label for="descrição">Instruções de Entrega:</label>
+        <br>
+        <br>
+            <input type="radio" id="opt1" name="escolha" value="1">
+            <label for="opt1">Deixar na Portaria</label><br>
+            <input type="radio" id="opt2" name="escolha" value="2">
+            <label for="opt2">Entregar em Mãos</label><br>
+            <input type="radio" id="opt3" name="escolha" value="3">
+            <label for="opt3">Ligar ao Chegar</label>
+            <br>
+            <label for="cupom">Cupom de Desconto:</label>
+            <input type="text">
+            <br>
+            <input type="checkbox" name="item1" value="ativado">
+            <label for="da">Receber Ofertas por Whatsapp</label>
+    </fieldset>
+    <br>
+    <button>Finalizar Compra</button>
+</form>
+</body>
+</html>
